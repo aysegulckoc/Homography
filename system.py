@@ -4,8 +4,6 @@ import numpy as np
 
 plt.axis([0, 74, 0, 40])
 
-#plt.axis([0, 74, 0, 40])
-
 x_cor = np.array([23.40180236, 23.415382,24.21230368,26.5840322,25.69717922,25.48481255,26.02323445, 25.2827045,26.93963827,
                   25.11982898,24.84894604,24.93242743,24.84450913,24.63746907,24.37016926,
                   24.66000025,23.70854215,23.67371589,23.50729503, 22.79276836, 23.57640649,23.0248254,
@@ -18,16 +16,11 @@ y_cor = np.array([13.78934413, 14.23764573, 14.15478411, 18.37776605,15.66784676
                   31.55846386,30.87006801,31.91847241, 26.19733589])
 
      
-#ax =plt.gca()
-#ax.set_xlabel("Index values")
-#ax.set_ylabel("Latitude values")
 plt.title("Kasiyerin Bel Noktasının(Sağ) Grafiği")
-
 plt.plot(x_cor, y_cor, 'o')
 
 plt.xlabel('Kasanın X Koordinat Sistemi')
 plt.ylabel('Kasanın Y Koordinat Sistemi')
-
 
 plt.show()
 
