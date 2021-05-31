@@ -31,16 +31,3 @@ plt.ylabel('Kasanın Y Koordinat Sistemi')
 
 plt.show()
 
-'''
-x = np.arange(0, 10, 0.005)
-y = np.exp(-x/2.) * np.sin(2*np.pi*x)
-fig, ax = plt.subplots()
-
-
-ax.plot()
-
-ax.set_xlim(-70, 80)
-ax.set_ylim(-10, 50)
-
-plt.show()
-'''
